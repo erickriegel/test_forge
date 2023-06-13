@@ -141,7 +141,7 @@ EOH
             service {
                 name = "$\u007BNOMAD_JOB_NAME\u007D"
                 tags = ["urlprefix-${external_url_gitlab_hostname}/"]
-                port = "gitlab"
+                port = "gitlab-https"
                 check {
                     name     = "alive"
                     type     = "tcp"
