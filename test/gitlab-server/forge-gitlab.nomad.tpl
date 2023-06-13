@@ -148,7 +148,7 @@ EOH
                     interval = "60s"
                     timeout  = "10s"
                     failures_before_critical = 5
-                    port     = "gitlab"
+                    port     = "gitlab-https"
                 }
             }
         } 
